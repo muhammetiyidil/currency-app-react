@@ -7,12 +7,17 @@ Currency App React is a simple and efficient React.js application that allows yo
 ✅ User-friendly and minimalist interface
 ✅ Live API requests for up-to-date calculations
 
+
 🛠 Technologies Used
 
 React.js – Component-based dynamic UI
+
 Axios – For handling API requests
+
 React Icons – For UI enhancements
+
 FreeCurrencyAPI – To fetch live exchange rates
+
 
 Screenshots:
 
@@ -22,7 +27,6 @@ Screenshots:
 
 
 🔧 Installation & Setup
-Follow these steps to run the project locally:
 
 Follow these steps to run the project locally:
 
