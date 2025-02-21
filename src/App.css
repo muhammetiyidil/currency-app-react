@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  color: rgb(255, 176, 29);
+  box-sizing: border-box;
+}
+
+.amount,
+.result {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 176, 29, 0.8);
+  text-align: center;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.amount:focus,
+.result:focus {
+  border-color: rgb(255, 208, 82);
+  transform: scale(1.05);
+}
+
+.to-currency-option,
+.from-currency-option {
+  width: 90px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 176, 29, 0.8);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.to-currency-option:hover,
+.from-currency-option:hover {
+  border-color: rgb(255, 208, 82);
+}
+
+.currency-div {
+  width: auto;
+  height: 300px;
+  border: 4px solid rgba(255, 176, 29, 0.9);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 8px 16px rgba(255, 176, 29, 0.4);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.currency-div:hover {
+  transform: scale(1.02);
+}
+
+.exchange-btn {
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #ff9c00, #ff6100);
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.exchange-btn:hover {
+  background: linear-gradient(45deg, #ff6100, #ff9c00);
+  transform: scale(1.1);
+}
+
+h2 {
+  font-size: 40px;
+}
